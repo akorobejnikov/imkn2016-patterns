@@ -1,4 +1,4 @@
-package imkn.strategy;
+package imkn.strategy.engine;
 
 import org.apache.commons.io.IOUtils;
 

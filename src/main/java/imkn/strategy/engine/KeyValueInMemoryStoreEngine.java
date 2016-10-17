@@ -1,4 +1,4 @@
-package imkn.strategy;
+package imkn.strategy.engine;
 
 import java.util.ArrayList;
 import java.util.HashMap;
