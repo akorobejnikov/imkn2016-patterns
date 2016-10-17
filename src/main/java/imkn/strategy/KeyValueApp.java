@@ -53,7 +53,7 @@ public class KeyValueApp {
 
         KeyValueStoreEngine storeEngine = getStoreEngine(args[0]);
 
-        KeyValueDB db = new KeyValueDB(storeEngine);
+        KeyValueDB db = new KeyValueDBImpl(storeEngine);
 
         db.add(KeyValueItems.ITEM_1);
         db.add(KeyValueItems.ITEM_2);
