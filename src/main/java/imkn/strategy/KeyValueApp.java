@@ -2,6 +2,7 @@ package imkn.strategy;
 
 
 import imkn.strategy.engine.KeyValueCompressedStoreEngine;
+import imkn.strategy.engine.KeyValueFSEngine;
 import imkn.strategy.engine.KeyValueInMemoryStoreEngine;
 import imkn.strategy.engine.KeyValueStoreEngine;
 
