@@ -1,16 +1,12 @@
 package imkn.listener;
 
 
-public class ObjectCreatedEvent implements Event{
+public class ObjectCreatedEvent {
 
     private final Object object;
 
     public ObjectCreatedEvent(Object object) {
         this.object = object;
-    }
-
-    public Object getObject() {
-        return object;
     }
 
     @Override

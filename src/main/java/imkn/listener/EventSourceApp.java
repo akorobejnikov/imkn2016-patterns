@@ -5,7 +5,7 @@ public class EventSourceApp {
 
     public static void main(String[] args) {
 
-        EventBus eventBus = new EventBus();
+        EventBusImpl eventBus = new EventBusImpl();
 
         Listener logListener = new LogListener();
         Listener dbLogListener = new DBLogListener();

@@ -1,23 +1,12 @@
 package imkn.listener;
 
 
-import java.util.ArrayList;
-import java.util.List;
+public interface EventBus {
 
-public class EventBus {
+    void subscribe(Listener listener);
 
-    private List<Listener> listeners = new ArrayList<>();
+    void unsubscribe(Listener listener);
 
-    void subscribe(Listener listener) {
-        listeners.add(listener);
-    }
-
-    void unsubscribe(Listener listener) {
-        listeners.remove(listener);
-    }
-
-    void publish(Event event) {
-        listeners.forEach(l -> l.onEvent(event));
-    }
+    void publish(Object event);
 
 }
