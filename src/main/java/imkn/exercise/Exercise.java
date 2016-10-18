@@ -3,6 +3,12 @@ package imkn.exercise;
 
 import java.util.*;
 
+/**
+ * 1. добавить "reversed mode"
+ * 2. реализовать действия через листенеры
+ * 3. избавиться от if'ов
+ * 4. вынести логику обработки консоли в отдельный класс
+ */
 public class Exercise {
 
     private static List<String> strings = new ArrayList<>();
